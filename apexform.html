@@ -14,7 +14,7 @@
         body form .date{
             display:flex;
             align-items: center;
-            justify-content: center;
+            justify-content:space-around;
             margin-bottom: 4rem;
         }
         body h3{
@@ -46,13 +46,37 @@
         <div class="date">
             <div>
                 <label for="month">MONTH:</label>
-                <input type="month">
+                <select name="month" id="month">
+                    <option value="January">January</option>
+                    <option value="">Febuary</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
+                </select>
+               
             </div>
             <div>
                 <label for="week">WEEK:</label>
-                <input type="week">
+                <select name="week" id="week">
+                    <option value="" selected>week1</option>
+                    <option value="">week 2</option>
+                    <option value="">week 3</option>
+                    <option value="">week 4</option>
+                    </select>
+               
             </div>
         </div>
+       
+           
+           
+       
 
         <div class="name">
             <div>Student name
